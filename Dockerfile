@@ -1,4 +1,4 @@
-FROM meren/anvio:6.2
+FROM meren/anvio:7
 
 RUN apt-get install -y --fix-missing procps && \
     Rscript -e "update.packages(repos='https://cran.rstudio.com')" && \
